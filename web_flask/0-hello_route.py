@@ -9,7 +9,7 @@ app = Flask(__name__)
 """The route decorator defines the URL path and the function to handle requests
 """
 @app.route('/airbnb-onepage/')
-def hello_HBNB:
+def hello_HBNB():
     return 'Hello HBNB!'
 
 """Run the Flask development server on port 5000"""
